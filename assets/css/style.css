@@ -1,0 +1,211 @@
+* {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.nav-item a {
+    font-weight: 500 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #34c6ec;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #34c6ec;
+    border-top: 3px solid #34c6ec;
+}
+
+/***** SLIDER BANNER CSS *****/
+
+.carousel-item-banner  {
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+}
+
+#first-slide {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0)), url('/assets/images/banner-home.png') no-repeat center center;
+    background-size: cover;
+}
+
+.slide-first-item {
+    padding: 0 90px;
+}
+
+.border-first-slide {
+    width: 170px;
+    height: 10px;
+    background-color: white;
+}
+
+.first-banner-title {
+    width: 40%;
+    color: white;
+}
+
+.first-banner-title h1 {
+    font-weight: bold;
+}
+
+.first-banner-desc {
+    width: 450px;
+    color: white;
+}
+
+.first-banner-desc p {
+    font-size: 14px;
+}
+
+#second-slide {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0)),url('/assets/images/banner-home-2.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+#third-slide {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0)),url('/assets/images/banner-home-3.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+/***** SLIDER BANNER CSS *****/
+
+
+/***** SERVICE CSS *****/
+
+.card-service {
+    height: 280px;
+    border: none;
+    box-shadow: 0 2px 3px 1px rgba(169,169,169, 0.3);
+    border-radius: 18px;
+}
+
+.card-body-service h6 {
+    color: rgba(128,128,128, 0.9);
+}
+
+.card-body-service span {
+    font-size: 13px;
+    color: rgba(128,128,128, 0.9);
+}
+
+/***** SERVICE CSS *****/
+
+/***** ABOUT US CSS *****/
+
+.image-about-us {
+    width: 100%;
+    height: 490px;
+}
+
+/***** ABOUT US CSS *****/
+
+/***** HOME PORTO CSS *****/
+
+.card-portofolio { 
+    border: none !important;
+}
+
+.card-body-portofolio {
+    padding: 0 !important;
+}
+
+.card-body-portofolio img{
+    width: 100%;
+}
+
+.card-body-portofolio h5 {
+    color: rgba(128,128,128, 0.9);
+    font-weight: 600;
+}
+
+.card-body-portofolio span {
+    color: rgba(128,128,128, 0.9)
+}
+
+/***** HOME PORTO CSS *****/
+
+/***** MEMBER CSS *****/
+
+.card-member {
+    border: 0 !important;
+    background-color: #f8f8f8;
+}
+
+.card-body-member {
+    padding: 0 !important;
+}
+
+.member-image img {
+    width: 100%;
+}
+
+.card-body-member span {
+    color: rgba(128,128,128, 0.9);
+    font-weight: 600;
+}
+
+.card-body-member p {
+    color: rgba(128,128,128, 0.9);
+}
+
+/***** MEMBER CSS *****/
+
+/***** SLIDER TESTI CSS *****/
+
+.carousel-item-testi {
+    height: 400px;
+}
+
+.card-testi {
+    height: 70%;
+    border: none;
+    box-shadow: 1px 2px 2px 2px rgba(169,169,169, 0.18);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/***** SLIDE TESTI CSS *****/
+
+/***** CONTACT US CSS *****/
+
+.contact-us h6 {
+    font-weight: 600;
+    color: rgba(169,169,169, 0.9);
+}
+
+/***** CONTACT US CSS *****/
+
+/***** FOOTER CSS *****/
+
+.footer {
+    height: 60px;
+}
+
+.footer ul {
+    margin: 0 !important;
+}
+
+.footer-list a {
+    color: white !important;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/***** FOOTER CSS *****/
+
+/***** CUSTOM BUTTON CSS *****/ 
+
+.btn-contact-us {
+    background-color: white; 
+    color: #34c6ec; 
+    border: 1px solid #34c6ec;
+    text-decoration: none;
+}
+
+.btn-contact-us:hover {
+    background-color: #34c6ec !important;
+    color: white !important;
+}
+
+/***** CUSTOM BUTTON CSS *****/
+
+
